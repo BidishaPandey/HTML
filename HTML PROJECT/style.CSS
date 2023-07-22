@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+
+}
+
+.navbar {
+    height: 70px; 
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px; 
+}
+
+
+.logo{
+    background-image:url("cartoon\ logo4.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+  
+.nav-search {
+    display: flex;
+    height: 50px;
+    width: 620px;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.search-input{
+    width:500px;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-search {
+    border: 2px solid green;
+}
+.hero-section{
+    background-image: url("cartoon\ 3.jpg");
+    background-size: cover;
+    height: 1100px;
+    width: 1550px;
+    
+}
+
+
+.cartoon-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkslategrey;
+}
+.box{
+    border: 2px solid black;
+    height: 370px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px 0px 15px
+
+}
+
+.box-img{
+    height:290px;
+    width: 340px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.box-content{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.box-content p{
+    color:dark blue;
+    align-items: center;
+}
+
+/** footer **/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color:rgb(2, 52, 2);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+.foot-panel2 {
+    background-color: rgb(81, 100, 81);
+    color:gray;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.logo {
+    background-image:url("cartoon\ logo4.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: black;
+    color: white;
+    height:110px ;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align:center ;
+    padding: 25px;
+}
